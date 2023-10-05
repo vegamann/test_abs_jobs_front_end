@@ -9,6 +9,8 @@ import { LayoutComponent } from './layout/layout.component';
   imports: [
     CommonModule
   ],
-  declarations: [Nav_barComponent,LayoutComponent]
+  exports:[LayoutComponent],
+  declarations: [Nav_barComponent,
+    LayoutComponent]
 })
 export class LayoutModule { }
