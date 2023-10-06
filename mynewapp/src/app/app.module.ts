@@ -9,6 +9,7 @@ import { BoardComponent } from './pages/board/board.component';
 import { AuthenticationModule } from './authentication/authentication.module';
 
 import { LayoutModule } from './layout/layout.module';
+import { LayoutRoutingModule } from './layout/layoutRoutingModule';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { LayoutModule } from './layout/layout.module';
     BrowserModule,
     AppRoutingModule,
     AuthenticationModule,
-    LayoutModule
+    LayoutModule,
+    LayoutRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
